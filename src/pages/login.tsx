@@ -1,5 +1,4 @@
 import { Box, Button, Text } from '@chakra-ui/react';
-import { colors } from '@twooni-ui/tokens';
 import { getSession, signIn } from 'next-auth/react';
 import { RiGithubFill, RiGithubLine } from 'react-icons/ri';
 
@@ -75,7 +74,7 @@ export default function Home() {
           </Text>
           <Text
             marginBottom="4"
-            color={colors.gray400}
+            color={'#98A2B3'}
             css={{
               textAlign: 'center',
               marginBottom: '$4',

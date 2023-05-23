@@ -1,4 +1,4 @@
-import create from 'zustand';
+import { create } from 'zustand';
 type Weight = { key: string; value: number }
 type Store = {
   weights: Weight[];

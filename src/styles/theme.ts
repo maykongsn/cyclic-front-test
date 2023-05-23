@@ -1,10 +1,10 @@
 import { extendTheme } from '@chakra-ui/react';
-import { colors } from '@twooni-ui/tokens';
+
 export const theme = extendTheme({
   styles: {
     global: {
       'html, body': {
-        backgroundColor: colors.gray100,
+        backgroundColor: '#F2F4F7',
         fontFamily: "'Outfit', sans-serif"
       },
     },
@@ -19,17 +19,17 @@ export const theme = extendTheme({
       500:'#6E51F2'
     }, 
     gray: {
-      25: colors.gray25,
-      50: colors.gray50,
-      100: colors.gray100,
-      200: colors.gray200,
-      300: colors.gray300,
-      400: colors.gray400,
-      500: colors.gray500,
-      600: colors.gray600,
-      700: colors.gray700,
-      800: colors.gray800,
-      900: colors.gray900,
+      25: '#FCFCFD',
+      50: '#F9FAFB',
+      100: '#F2F4F7',
+      200: '#EAECF0',
+      300: '#D0D5DD',
+      400: '#98A2B3',
+      500: '#667085',
+      600: '#475467',
+      700: '#344054',
+      800: '#1D2939',
+      900: '#101828',
     },
     green: {
       900: '#00452D',

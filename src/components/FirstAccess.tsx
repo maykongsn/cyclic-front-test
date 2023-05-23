@@ -1,7 +1,6 @@
 import { apiGithub, backendApi } from '@/services/api';
 import { Button, Flex, HStack, Spacer, Text, useToast } from '@chakra-ui/react';
 import { useQueryClient } from '@tanstack/react-query';
-import { colors } from '@twooni-ui/tokens';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
@@ -70,7 +69,7 @@ const FirstAccess: React.FC<FirstAccessProps> = ({ setFirstAccess }) => {
       align="center"
     >
       <Text fontSize="2xl">Bem vindo! Este é seu primeiro acesso!</Text>
-      <Text color={colors.gray400}>
+      <Text color={'#98A2B3'}>
         Escolha abaixo dentre os seus repositórios JAVA, quais você deseja que o
         ciref seja executado.
       </Text>

@@ -34,7 +34,6 @@ import {
   useToast,
   VStack,
 } from '@chakra-ui/react';
-import { colors } from '@twooni-ui/tokens';
 
 interface RefactItemProps {
   refact: any;
@@ -116,12 +115,12 @@ const RefactItem: React.FC<RefactItemProps> = ({ refact, repo }) => {
       alignItems="center"
       w="100%"
       outline="1px solid"
-      outlineColor={colors.gray700}
+      outlineColor={'#344054'}
       p="4"
     >
       <div>
         <Text fontWeight="bold">{refact.type}</Text>
-        <Text fontSize="smaller" color={colors.gray400}>
+        <Text fontSize="smaller" color={'#98A2B3'}>
           {refact.description}
         </Text>
       </div>
